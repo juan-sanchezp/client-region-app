@@ -1,59 +1,41 @@
-# PruebaProyecto
+# 📦 Client Management App – Angular 18
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Web application developed with **Angular 18** for client management, implementing secure authentication and a modern UI using Angular Material.
 
-## Development server
+This project simulates a real administrative system, allowing user login and secure client management through a protected REST API using JWT authentication.
 
-To start a local development server, run:
+The application was built following frontend best practices, including modular structure, route protection, HTTP interceptors, and clean separation of concerns.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Quick Access
 
-## Code scaffolding
+🌐 **Live Application:**  
+(Add your deployment URL here)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🔗 **Backend Repository (Spring Boot API):**  
+(Add link to client-region-api)
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ⚙️ Tech Stack
 
-```bash
-ng generate --help
-```
+- Angular 18  
+- TypeScript  
+- Angular Material  
+- RxJS  
+- PostgreSQL  
+- JWT Authentication  
+- REST API Integration  
 
-## Building
+---
 
-To build the project run:
+## 🔐 Main Features
 
-```bash
-ng build
-```
+- User authentication with JWT  
+- Route protection using Angular Guards  
+- HTTP Interceptor for automatic token handling  
+- Client listing and management  
+- Secure communication with backend API  
+- Responsive UI with Angular Material  
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
