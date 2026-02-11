@@ -1,0 +1,36 @@
+  <div class="login-container">
+    <mat-card class="login-card">
+
+      <!-- Logo -->
+      <div class="logo-container">
+        <img src="icons/logo.png" alt="Logo" class="logo">
+        
+      </div>
+
+      <mat-card-title class="title">Iniciar sesión</mat-card-title>
+
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Usuario</mat-label>
+          <input matInput formControlName="username">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Contraseña</mat-label>
+          <input matInput type="password" formControlName="password">
+        </mat-form-field>
+
+                
+
+        <mat-checkbox formControlName="remember">Recordarme</mat-checkbox>
+
+        <button mat-raised-button color="primary" class="full-width" type="submit">
+          Ingresar
+        </button>
+
+        <mat-error *ngIf="error">{{ error }}</mat-error>
+      </form>
+
+    </mat-card>
+  </div>
