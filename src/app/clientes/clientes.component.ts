@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Cliente } from './cliente';
 import { CommonModule } from '@angular/common';
 import { ClienteService } from './cliente.service';
-import { Router, RouterLink } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 import swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-clientes',
@@ -20,8 +20,8 @@ export class ClientesComponent implements OnInit {
   ] */
  
 
-
   clientes: Cliente[] = [];
+
 
   constructor(private objClienteService: ClienteService, private router: Router) {}
 

@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   /* public proyecto: any = {anio: '2024', nombreProyecto: 'Proyecto de introduccion a Angular'}; */
   public tecnologia: any = {leyenda: 'webApp desarrollada con ', tec1: 'Angular19', tec2: 'Spring'};
-  public autor: string = 'J Sebastian S...';
-  public proyecto: any = {anio: '2024', nombreProyecto: 'Angular'};
+  public autor: string = 'J Sebastian Sanchez';
+  public proyecto: any = {anio: '2025', nombreProyecto: 'Angular'};
 }
