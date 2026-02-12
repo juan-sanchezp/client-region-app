@@ -1,5 +1,5 @@
 export const environment = {
-  apiUrl: 'https://back-crud-clientes-jwt.onrender.com'
+  apiUrl: 'https://back-crud-clientes-jwt.onrender.com/'
 };
 
 
