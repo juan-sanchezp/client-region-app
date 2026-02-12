@@ -10,12 +10,14 @@ import { catchError, Observable, of, throwError } from 'rxjs'; // patron observa
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import swal from 'sweetalert2';
 import { Region } from './Region';
+import { environment } from '../../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ClienteService {
-  private urlEndPoint: string = 'http://localhost:8080/api/clientes';
+  // private urlEndPoint: string = 'http://localhost:8080/api/clientes';
+  private urlEndPoint: string = `${environment.apiUrl}/api/clientes`;
   private httpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' }); //indicarle al servidor qeu nos debe devolver un json
 
   constructor(private http: HttpClient) {}
